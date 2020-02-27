@@ -1,0 +1,23 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "description": "Cardgame Kata",
+  "main": "src/index.js",
+  "repository": "https://github.com/dhonig/cardgame.git",
+  "author": "dhonig",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --require @babel/register 'src/**/**spec.js'"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "chai": "^4.2.0",
+    "sinon": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.8.3",
+    "mocha": "^7.1.0"
+  }
+}
