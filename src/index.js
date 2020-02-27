@@ -21,7 +21,6 @@ export class CardDeck {
         var currentIndex = this.cards.length, temporaryValue, randomIndex;
         // While there remain elements to shuffle...
         while (0 !== currentIndex) {
-
             // Pick a remaining element...
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex -= 1;
@@ -45,7 +44,7 @@ export class Player {
 export class Game {
     constructor({rounds=5, numberOfPlayers=5, cardsPerPlayer=5}) {
         this.rounds = rounds;
-        this.numberOfPlayers;
+        this.numberOfPlayers=numberOfPlayers;
         this.players = new Array();
         this.deck = new CardDeck();
         this.cardsPerPlayer= (cardsPerPlayer) ? cardsPerPlayer:5;

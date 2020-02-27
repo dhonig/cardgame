@@ -29,7 +29,6 @@ describe('Player', () => {
 
 
 describe('Game', () => {
-
     it('Is initailized with the correct number of players', () => {
         let aGame = new Game({rounds: 4, numberOfPlayers: 5, cardsPerPlayer: 5});
         expect(aGame.players.length).to.eql(5);
@@ -48,7 +47,8 @@ describe('Game', () => {
         aGame.players.forEach(player=>{
             expect(player.hand.length).to.eql(7)
         })
-        expect((52-(aGame.numberOfPlayers*cardsPerPlayer)).to.eql(aGame.deck.cards.lenght);
+        let numberOfCardsDealt=aGame.numberOfPlayers*aGame.cardsPerPlayer;
+        expect(52-numberOfCardsDealt).to.eql(aGame.deck.cards.length);
     })
 
 })
