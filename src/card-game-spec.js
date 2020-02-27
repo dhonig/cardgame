@@ -48,6 +48,7 @@ describe('Game', () => {
         aGame.players.forEach(player=>{
             expect(player.hand.length).to.eql(7)
         })
+        expect((52-(aGame.numberOfPlayers*cardsPerPlayer)).to.eql(aGame.deck.cards.lenght);
     })
 
 })
