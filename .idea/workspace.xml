@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b71d4a76-1d63-46e1-9aa1-840af2cb082c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card-game-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/card-game-spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +24,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41141847">
+    <splitter split-orientation="horizontal" split-proportion="0.57151264">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="152">
+                  <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105345">
+                  <caret line="7016" column="16" selection-start-line="7016" selection-start-column="16" selection-end-line="7016" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -46,7 +58,7 @@
             <entry file="file://$PROJECT_DIR$/src/card-game-spec.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
-                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                  <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -57,15 +69,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/card-game-spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+                <state relative-caret-position="632">
+                  <caret line="152" column="75" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/chai/lib/chai/utils/proxify.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1110">
+                  <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -96,8 +117,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="97" />
+    <option name="x" value="559" />
+    <option name="y" value="43" />
     <option name="width" value="2001" />
     <option name="height" value="1312" />
   </component>
@@ -108,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,6 +153,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -152,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ROS Launch.card-game-spec (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -190,11 +217,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="card-game-spec (1)" type="ros_launch_run_config_type_id" factoryName="ROS Launch" temporary="true">
+      <method v="2" />
+    </configuration>
     <configuration name="card-game-spec" type="ros_launch_run_config_type_id" factoryName="ROS Launch" temporary="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ROS Launch.card-game-spec (1)" />
         <item itemvalue="ROS Launch.card-game-spec" />
       </list>
     </recent_temporary>
@@ -207,15 +238,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582782663308</updated>
       <workItem from="1582782673860" duration="875000" />
-      <workItem from="1582784137132" duration="6658000" />
+      <workItem from="1582784137132" duration="6956000" />
+      <workItem from="1582996466061" duration="5147000" />
+      <workItem from="1583003577452" duration="1875000" />
+      <workItem from="1583086268219" duration="10529000" />
+      <workItem from="1583097830851" duration="9696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7533000" />
+    <option name="totallyTimeSpent" value="35078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="97" width="2001" height="1312" extended-state="0" />
+    <frame x="559" y="43" width="2001" height="1312" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82503366" visible="true" weight="0.125579" />
@@ -225,14 +260,14 @@
       <window_info id="Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32873166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.54146343" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.44104803" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946004" visible="true" weight="0.37359792" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946004" visible="true" weight="0.30629852" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053996" side_tool="true" weight="0.64484847" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32977912" />
       <window_info anchor="bottom" id="Database Changes" order="12" sideWeight="0.49904275" weight="0.23838738" />
@@ -264,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/suite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1886">
@@ -278,17 +306,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105345">
+          <caret line="7016" column="16" selection-start-line="7016" selection-start-column="16" selection-end-line="7016" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/chai/lib/chai/utils/proxify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="152">
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/card-game-spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+        <state relative-caret-position="632">
+          <caret line="152" column="75" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
