@@ -137,7 +137,7 @@ describe('Game', () => {
 
     it('Can support different strategies for picking the best player', () => {
         let aGame = new Game({
-            rounds: 100,
+            rounds: 5,
             numberOfPlayers: 5,
             handSize: 5,
             bestPlayerStrategy: Game.BEST_PLAYER_BY_MOST_VICTORIES
